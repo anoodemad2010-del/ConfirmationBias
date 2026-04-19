@@ -16,8 +16,8 @@ function ConclusionPage() {
           <span className="mt-6 inline-flex items-center rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-accent">
             The Final Word
           </span>
-          <h1 className="mt-6 font-serif text-4xl md:text-6xl font-semibold leading-[1.05] text-balance">
-            We don't need new minds. We need <span className="text-accent italic">honest</span> ones.
+          <h1 className="mt-6 font-serif text-4xl md:text-6xl font-semibold leading-[1.05] text-balance text-white">
+          We don't need new minds. We need <span className="text-accent italic">honest</span> ones.
           </h1>
         </div>
       </section>
@@ -32,11 +32,11 @@ function ConclusionPage() {
           <p>
             Across this site, we've seen what it is, where it hides, and why it matters. We saw it shape our news
             feeds, our friendships, our votes, and even our memories. We measured it inside ourselves with six honest
-            questions. And we explored what we can do about it — both alone and together.
+            questions. And we explored what we can do about it both alone and together.
           </p>
           <p>
             <strong>Perspective Shift exists for a simple reason:</strong> the world has invested billions in faster
-            information and almost nothing in clearer thinking. We believe that's the next great public investment —
+            information and almost nothing in clearer thinking. We believe that's the next great public investment
             as important as literacy was 200 years ago, as urgent as climate is today.
           </p>
           <p>
@@ -45,7 +45,7 @@ function ConclusionPage() {
             know I'm wrong?"</em> the way it teaches them to read.
           </p>
           <p className="font-serif text-2xl text-primary text-balance">
-            If we can shift perspectives — even our own, even a little — we shift the future.
+            If we can shift perspectives even our own, even a little we shift the future.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ function ConclusionPage() {
             Take the lesson with you
           </h2>
           <p className="mt-3 text-muted-foreground max-w-xl mx-auto">
-            Share Perspective Shift with one person who could use it — a classmate, a colleague, a parent. That single
+            Share Perspective Shift with one person who could use it a classmate, a colleague, a parent. That single
             share is the first solution.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">

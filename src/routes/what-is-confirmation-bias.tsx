@@ -7,6 +7,23 @@ export const Route = createFileRoute("/what-is-confirmation-bias")({
   component: WhatIsPage,
 });
 
+export function PageHero({ eyebrow, title, lead }: { eyebrow: string; title: string; lead: string }) {
+  return (
+    <section className="relative overflow-hidden bg-gradient-hero text-primary-foreground">
+      <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
+      <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center animate-fade-up">
+        <span className="inline-flex items-center rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-accent">
+          {eyebrow}
+        </span>
+        <h1 className="mt-6 font-serif text-4xl md:text-6xl font-semibold leading-[1.05] text-balance text-white">
+          {title}
+        </h1>
+        <p className="mt-6 text-lg text-white/80 max-w-2xl mx-auto text-pretty">{lead}</p>
+      </div>
+    </section>
+  );
+}
+
 function WhatIsPage() {
   return (
     <SiteLayout>
@@ -74,27 +91,10 @@ function WhatIsPage() {
             to="/examples"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors"
           >
-            See real-life examples <ArrowRight className="h-4 w-4" />
+            See real life examples <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
       </section>
     </SiteLayout>
-  );
-}
-
-export function PageHero({ eyebrow, title, lead }: { eyebrow: string; title: string; lead: string }) {
-  return (
-    <section className="relative overflow-hidden bg-gradient-hero text-primary-foreground">
-      <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
-      <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center animate-fade-up">
-        <span className="inline-flex items-center rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-accent">
-          {eyebrow}
-        </span>
-        <h1 className="mt-6 font-serif text-4xl md:text-6xl font-semibold leading-[1.05] text-balance">
-          {title}
-        </h1>
-        <p className="mt-6 text-lg text-primary-foreground/80 max-w-2xl mx-auto text-pretty">{lead}</p>
-      </div>
-    </section>
   );
 }

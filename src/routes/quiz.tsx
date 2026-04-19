@@ -99,9 +99,9 @@ function QuizPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Self-Check"
+        eyebrow="Self Check"
         title="Is your mind affected by confirmation bias?"
-        lead="A short, honest quiz designed for students and curious thinkers. There are no right answers — only revealing ones."
+        lead="A short, honest quiz designed for students and curious thinkers. There are no right answers only revealing ones."
       />
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16">

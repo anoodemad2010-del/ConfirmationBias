@@ -111,7 +111,7 @@ function HomePage() {
         <div className="absolute inset-0">
           <img
             src={laptopBg}
-            alt="Crypto trading website on a laptop screen — an example of curated information"
+            alt="Crypto trading website on a laptop screen an example of curated information"
             className="h-full w-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/60" />
@@ -123,7 +123,7 @@ function HomePage() {
               Every screen you open was designed to agree with you.
             </h2>
             <p className="mt-5 text-muted-foreground leading-relaxed max-w-xl">
-              From your news feed to your trading dashboard, algorithms feed you what you already believe — and quietly
+              From your news feed to your trading dashboard, algorithms feed you what you already believe and quietly
               hide what you don't. Confirmation bias used to be a personal habit. Now it's the entire internet's
               business model.
             </p>
@@ -154,8 +154,8 @@ function HomePage() {
           <div className="relative">
             <h2 className="font-serif text-3xl md:text-5xl text-balance">Is your mind playing tricks on you?</h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Take our 6-question quiz designed for students and curious thinkers. Discover how your brain handles
-              evidence — and what to do about it.
+              Take our 6 questions quiz designed for students and curious thinkers. Discover how your brain handles
+              evidence and what to do about it.
             </p>
             <Link
               to="/quiz"
